@@ -7,7 +7,6 @@ export default function Herosection() {
   return (
     <main className="relative min-h-screen bg-white overflow-hidden font-sans z-10">
 
-      {/* Background Shape */}
       <div className="absolute top-0 right-0 -z-10">
         <svg
           width="600"
@@ -26,7 +25,7 @@ export default function Herosection() {
 
       <section className="max-w-7xl mx-auto px-6 pt-16 md:pt-20 pb-20 md:pb-32 flex flex-col-reverse lg:flex-row items-center gap-12">
 
-        {/* Left Content */}
+        
         <div className="w-full lg:w-1/2 z-10 text-center lg:text-left">
 
           <h4 className="text-[#DF6951] font-bold uppercase tracking-wider mb-4 text-sm md:text-base">
@@ -79,7 +78,7 @@ export default function Herosection() {
           </div>
         </div>
 
-        {/* Right Content */}
+   
         <div className="w-full lg:w-1/2 flex justify-center relative">
 
           <div className="relative w-full max-w-sm sm:max-w-md md:max-w-lg">

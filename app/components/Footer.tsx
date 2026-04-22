@@ -6,10 +6,10 @@ const Footer = () => {
   return (
     <footer className="w-full bg-white px-6 py-20 font-sans text-[#5E6282] md:px-12 lg:px-24">
       <div className="mx-auto max-w-7xl">
-        {/* Top Section */}
+     
         <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
           
-          {/* Logo and Tagline */}
+      
           <div className="lg:col-span-1">
             <h2 className="mb-6 text-4xl font-bold text-[#181E4B]">Jadoo.</h2>
             <p className="max-w-[200px] text-sm leading-relaxed">
@@ -27,7 +27,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact Links */}
           <div>
             <h3 className="mb-6 text-xl font-bold text-[#080809]">Contact</h3>
             <ul className="space-y-3 text-lg font-medium">
@@ -37,7 +36,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* More Links */}
+          
           <div>
             <h3 className="mb-6 text-xl font-bold text-[#080809]">More</h3>
             <ul className="space-y-3 text-lg font-medium">
@@ -47,18 +46,18 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Socials & Apps */}
+         
           <div className="flex flex-col items-center lg:items-start">
             <div className="mb-6 flex gap-4">
-              {/* Facebook Icon */}
+           
               <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
                 <img src="/facebook.svg" className="h-5 w-5 text-[#080809]" />
               </a>
-              {/* Instagram Icon with Gradient */}
+              
               <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-tr from-[#F9ED32] via-[#EE2A7B] to-[#002AFF] text-white shadow-md">
                 <img src="/instagram.svg" className="h-5 w-5" />
               </a>
-              {/* Twitter Icon */}
+             
               <a href="#" className="flex h-10 w-10 items-center justify-center rounded-full bg-white shadow-md hover:shadow-lg transition-shadow">
                 <img src="/twitter-x.svg" className="h-5 w-5 text-[#080809]" />
               </a>
@@ -85,7 +84,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright Section */}
+        
         <div className="mt-20 text-center">
           <p className="text-sm font-medium">All rights reserved@jadoo.co</p>
         </div>

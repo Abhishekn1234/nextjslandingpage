@@ -25,7 +25,7 @@ export default function Topsection() {
   return (
     <section className="w-full py-16 md:py-24 bg-white font-sans">
 
-      {/* Header */}
+      
       <div className="text-center mb-10 md:mb-14 px-4">
         <p className="text-xs sm:text-sm uppercase tracking-widest text-gray-500">
           Top Selling
@@ -36,7 +36,7 @@ export default function Topsection() {
         </h2>
       </div>
 
-      {/* Cards */}
+      
       <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
 
         {destinations.map((item, index) => (
@@ -45,7 +45,7 @@ export default function Topsection() {
             className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden group"
           >
 
-            {/* Image */}
+           
             <div className="relative w-full h-56 sm:h-60 md:h-64 overflow-hidden">
               <Image
                 src={item.img}
@@ -55,7 +55,7 @@ export default function Topsection() {
               />
             </div>
 
-            {/* Content */}
+           
             <div className="p-4 sm:p-5 flex justify-between items-start gap-3">
 
               <div>

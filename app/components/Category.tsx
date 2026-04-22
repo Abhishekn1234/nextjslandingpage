@@ -30,17 +30,16 @@ export default function Category() {
     <section className="w-full bg-white py-16 md:py-24 px-4 sm:px-6 md:px-16 font-sans">
       <div className="max-w-6xl mx-auto text-center">
 
-        {/* Label */}
+       
         <p className="text-xs sm:text-sm tracking-widest text-gray-500 uppercase">
           Category
         </p>
 
-        {/* Heading */}
         <h2 className="mt-2 text-2xl sm:text-3xl md:text-4xl font-semibold text-[#14183E]">
           We Offer Best Services
         </h2>
 
-        {/* Grid */}
+    
         <div className="mt-10 md:mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
 
           {services.map((item, idx) => {
@@ -51,20 +50,20 @@ export default function Category() {
                 key={idx}
                 className="relative group flex flex-col items-center text-center px-6 py-8 md:py-10 rounded-2xl transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
               >
-                {/* background accent */}
+                
                 <div className="absolute top-5 right-5 w-8 h-8 md:w-10 md:h-10 bg-orange-100 rounded-xl -z-10 group-hover:scale-110 transition" />
 
-                {/* Icon */}
+              
                 <div className="w-12 h-12 md:w-14 md:h-14 flex items-center justify-center mb-5 md:mb-6">
                   <Icon className="w-8 h-8 md:w-10 md:h-10 text-[#5E6282]" />
                 </div>
 
-                {/* Title */}
+             
                 <h3 className="text-base md:text-lg font-semibold text-[#14183E] mb-2 md:mb-3">
                   {item.title}
                 </h3>
 
-                {/* Description */}
+                
                 <p className="text-xs sm:text-sm text-[#5E6282] leading-relaxed">
                   {item.desc}
                 </p>

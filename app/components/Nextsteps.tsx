@@ -8,7 +8,7 @@ export default function Nextsteps() {
     <section className="w-full bg-white py-20 px-6 md:px-16 font-sans">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
-        {/* LEFT CONTENT */}
+       
         <div>
           <p className="text-sm font-medium text-indigo-500 mb-3">
             Easy and Fast
@@ -20,7 +20,7 @@ export default function Nextsteps() {
 
           <div className="space-y-8">
 
-            {/* Step 1 */}
+            
             <div className="flex gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-yellow-100">
                 <MapPin className="text-yellow-600" />
@@ -36,7 +36,7 @@ export default function Nextsteps() {
               </div>
             </div>
 
-            {/* Step 2 */}
+          
             <div className="flex gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-orange-100">
                 <CreditCard className="text-orange-600" />
@@ -52,7 +52,7 @@ export default function Nextsteps() {
               </div>
             </div>
 
-            {/* Step 3 */}
+      
             <div className="flex gap-4">
               <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-teal-100">
                 <Plane className="text-teal-600" />
@@ -71,10 +71,10 @@ export default function Nextsteps() {
           </div>
         </div>
 
-        {/* RIGHT CONTENT */}
+       
         <div className="relative flex justify-center lg:justify-end">
 
-          {/* Main Card */}
+         
           <div className="bg-white rounded-3xl shadow-xl p-5 w-[320px]">
             <div className="relative w-full h-48 rounded-2xl overflow-hidden">
               <Image
@@ -104,11 +104,11 @@ export default function Nextsteps() {
             </p>
           </div>
 
-          {/* Floating mini card */}
+          
                     <div className="absolute -bottom-10 right-0 bg-white shadow-lg rounded-xl p-4 w-[200px]">
             <div className="flex items-center gap-3">
                 
-                {/* Profile Image Circle */}
+               
                 <div className="relative w-10 h-10 rounded-full overflow-hidden bg-gray-200">
                 <Image
                     src="/hosjd.png"

@@ -42,7 +42,7 @@ const Testimonials = () => {
 
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center">
 
-        {/* LEFT */}
+        
         <div className="text-center lg:text-left space-y-4 md:space-y-6">
 
           <span className="text-gray-500 uppercase tracking-widest text-xs sm:text-sm font-semibold">
@@ -53,7 +53,7 @@ const Testimonials = () => {
             What People Say <br className="hidden sm:block" /> About Us.
           </h2>
 
-          {/* Dots */}
+      
           <div className="flex justify-center lg:justify-start gap-3 pt-6 md:pt-8">
             {testimonials.map((_, i) => (
               <span
@@ -66,13 +66,13 @@ const Testimonials = () => {
           </div>
         </div>
 
-        {/* RIGHT */}
+       
         <div className="relative flex flex-col items-center lg:items-start">
 
-          {/* Main Card */}
+     
           <div className="relative bg-white p-6 sm:p-8 md:p-10 rounded-2xl shadow-xl border border-gray-50 max-w-lg w-full">
 
-            {/* Avatar */}
+            
             <div className="absolute -top-6 sm:-top-8 left-4 sm:-left-8">
               <img
                 src={current.image}
@@ -95,7 +95,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Background Card (hidden on mobile for simplicity) */}
+          
           <div className="hidden lg:block absolute top-10 right-0 w-full h-full border border-gray-100 rounded-2xl bg-white shadow-sm z-0 translate-x-10 translate-y-10">
             <div className="p-8 mt-48">
               <p className="font-bold text-slate-700">
@@ -107,7 +107,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          {/* Arrows */}
+          
           <div className="flex md:flex-col gap-6 md:gap-8 mt-8 md:mt-0 md:ml-10 z-20">
 
             <ChevronUp

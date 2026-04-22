@@ -13,12 +13,12 @@ export default function Navbar() {
     <header className="w-full bg-transparent relative z-50">
       <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
 
-        {/* Logo */}
+        
         <div className="flex items-center gap-2">
           <Image src="/Jadoo.png" alt="logo" width={90} height={30} />
         </div>
 
-        {/* Desktop Menu */}
+       
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-700">
           <Link href="/destinations" className="hover:text-black">Destinations</Link>
           <Link href="/hotels" className="hover:text-black">Hotels</Link>
@@ -26,9 +26,9 @@ export default function Navbar() {
           <Link href="/bookings" className="hover:text-black">Bookings</Link>
         </nav>
 
-        {/* Right Section (Desktop) */}
+        
         <div className="hidden md:flex items-center gap-4">
-          {/* Language */}
+         
           <div className="relative">
             <button
               onClick={() => setLangOpen(!langOpen)}
@@ -57,7 +57,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Mobile Hamburger */}
+      
         <button
           className="md:hidden"
           onClick={() => setMobileOpen(!mobileOpen)}
@@ -66,7 +66,7 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
+
       {mobileOpen && (
         <div className="md:hidden absolute top-16 left-0 w-full bg-white border-t shadow-lg">
           <nav className="flex flex-col px-6 py-4 gap-4 text-sm text-gray-700">
@@ -82,7 +82,7 @@ export default function Navbar() {
               Sign up
             </Link>
 
-            {/* Language */}
+          
             <div className="flex gap-3">
               <button className="px-2 py-1 border rounded">EN</button>
               <button className="px-2 py-1 border rounded">AR</button>

@@ -12,7 +12,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="relative bg-white overflow-x-hidden">
 
-        {/* ✅ GLOBAL BACKGROUND DECOR */}
+       
         <div className="absolute top-0 right-0 z-0 pointer-events-none">
           <Image
             src="/Decore.png"
@@ -24,17 +24,17 @@ export default function RootLayout({
           />
         </div>
 
-        {/* Navbar */}
+        
         <div className="relative z-20">
           <Navbar />
         </div>
 
-        {/* Page content */}
+        
         <div className="relative z-10">
           {children}
         </div>
 
-        {/* ✅ Footer */}
+       
         <div className="relative z-10">
           <Footer />
         </div>
